@@ -6,11 +6,11 @@
 int main()
 {
     int p = 1000000;
-    double r = 10;
+    double r = 0.1;
     int n = 12;
     int t = 40;
 
     double a = stock(p, r, n, t);
-    printf("%f", a);
+    printf("미래가치 : %f\n", a);
     return 0;
 }

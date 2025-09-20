@@ -26,7 +26,7 @@ int Div(int a, int b)
 }
 double stock(int p, double r, int n, int t)
 {
-    double a = pow(p * (1 + r / n), (n * t));
+    double a = p * pow(1 + r / n, n * t);
     return a;
 }
 
